@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <img src="Friends.PNG" alt="error occured">
+        <h2 style="text-align: center;">Friendship Zone</h2<!DOCTYPE html>
+        <h3>Add your details to register</h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" pattern="^[A-Za-z]+\s[A-Za-z]+\s?[A-Za-z]*$" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="18"><br><br>
+            <label for="DOB">Birthday:</label>
+            <input type="date" id="DOB"><br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br><br>
+            <label for="about">About:</label>
+            <textarea id="about" cols="30" rows="5"></textarea><br><br>
+            <label for="phone">Phone:</label>
+            <input type="number" id="number"><br><br>
+            Interested in:
+            <input type="checkbox" id="friendship">
+            <label for="friendship">Friendship</label>
+            <input type="checkbox" id="dating">
+            <label for="dating">Dating</label>
+            <label for="photo">Attachment:</label>
+            <input type="file" id="photo"><br><br>
+            <button type="button" onclick="window.location.href='RegistrationConfirmation.html'">Register</button>
+            <button type="button" onclick="window.location.href='RegistrationConfirmationforAdmin.html'">Register as Admin</button>
+        </form>
+    </body>
+</html>
